@@ -1,0 +1,64 @@
+:root {
+  --bg-primary: #f4dfb6;
+  --bg-sec: ;
+  --bg-third: ;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: notosans;
+}
+
+.title-name {
+  font-family: baskervville;
+  font-weight: 400;
+  color: white;
+  text-decoration: none;
+}
+.main {
+  height: 100vh;
+}
+
+.img-bg {
+  background-image: url(https://asset-a.grid.id/crop/0x0:0x0/x/photo/2021/04/09/the-fall-of-the-titans-minjpg-20210409030754.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+.text-color-warning {
+  color: #f4dfb6 !important;
+}
+
+.nav-item :hover {
+  text-decoration: line-through;
+  text-decoration-color: white;
+}
+
+.box-left {
+  height: 85vh;
+}
+
+.bg-color-dark {
+  background-color: #191919;
+}
+
+.padding {
+  padding-top: 100px;
+}
+
+.margin {
+  margin-left: 15rem;
+}
+
+.a-last {
+  color: var(--bg-primary);
+  font-size: 2rem;
+  margin: 1rem;
+  text-decoration: none;
+}
